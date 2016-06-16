@@ -28,7 +28,7 @@ Imaplib - (retrieving gmail) https://docs.python.org/2/library/imaplib.html
 
 Adafruit - (controlling ear motors) https://github.com/adafruit/Adafruit-Motor-HAT-Python-Library
 
-It's currently set to run on startup using the /etc/rc.local method ("adding in python /home/pi/RabbitPi/rabbit.py &" just above the last exit 0 line), which has worked fine so far.
+It's currently set to run on startup using the /etc/rc.local method (adding in "python /home/pi/RabbitPi/rabbit.py &" just above the last exit 0 line), which has worked fine so far.
 
 Developer Accounts
 ++++++++++++++++++
