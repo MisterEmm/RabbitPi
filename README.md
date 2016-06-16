@@ -18,7 +18,7 @@ My version changes very little, just loads a different mp3 on boot and includes 
 rabbit.py
 
 
-This is the main script that reads out the notifications, takes pictures and uploads them to Twitter. It includes elements from the below 
+This is the main script that reads out the notifications, takes pictures and uploads them to Twitter. It includes elements from: 
 
 Tweeting Babbage - (selfie function) https://www.raspberrypi.org/learning/tweeting-babbage/
 
@@ -33,7 +33,7 @@ It's currently set to run on startup using the /etc/rc.local method ("adding in 
 Developer Accounts
 ++++++++++++++++++
 
-The links above provide great resources and the necessary modules are easily installed, Pyvona especially. To get the code to connect to the web services you'll need to set up some developer accounts as well (this is covered in their individual guides as well)
+The links above provide great resources and the necessary modules are easily installed, Pyvona especially. To get the code to connect to the web services you'll need to set up some developer accounts as well (this is covered in their individual guides, lots of hoops to jump through but fairly straightforward)
 
 Amazon Alexa (for the AlexaPi voice search) - https://developer.amazon.com/appsandservices/solutions/alexa
 
