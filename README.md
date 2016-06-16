@@ -4,7 +4,7 @@ The examples included are taken from the RabbitPi project, documented at http://
 
 It's a Raspberry Pi digital assistant, building on the IoT heritage of the Nabaztag, Nabaztag:Tag and Karotz smart rabbits that have now been obsolete for several years. 
 
-The code shown is in a "working" state but neads tidying up, a work in progress. I'm conscious that loops need to be added, along with more comments, and a better structure for holding the various credentials in separate files. It also needs additions to make it exit more elegantly in case of problems, and the gmail side would benefit from some encryption. Still it functions surprisingly well on a Pi 3 as a proof of concept and I was reluctant to tinker with it too much while it was working! I also plan to add in more functions to make the rabbit "dance" and so that a random confirmation from a list is read out when a selfie is tweeted.
+The code shown is in a "working" state but neads tidying up, a work in progress. I'm conscious that loops need to be added, along with more comments, and a better structure for holding the various credentials in separate files. It also needs additions to make it exit more elegantly in case of problems, and the gmail side would benefit from some encryption. Still it functions surprisingly well on a Pi 3 as a proof of concept and I was reluctant to tinker with it too much while it was working! I also plan to add in more features to make the rabbit "dance" and so that a random confirmation from a list is read out when a selfie is tweeted.
 
 The files included are as follows: 
 
@@ -13,7 +13,7 @@ main.py
 
 This is an adaptation of the main.py script used in Sam Machin's AlexaPi repository (which you'll need), which is available at https://github.com/sammachin/AlexaPi. 
 
-My version changes very little, just loads a different mp3 on boot and includes extra lines for controlling the Adafruit Motor Hat to make the RabbitPi ears move while Alexa is searching and after booting. If you're interested in the Alexa voice search function it's well worth reading the instructions on the AlexaPi pages and reading through the open issues if you have any problems, I found nearly all of my answers there. The code changes quite often so it's worth keeping an eye on - also other branches are available offering music functionality.
+My version changes very little, just loads a different mp3 on boot and includes extra lines for controlling the Adafruit Motor Hat to make the RabbitPi ears move while Alexa is searching and after booting. If you're interested in the Alexa voice search function it's well worth reading the instructions on the AlexaPi pages and going through the open issues if you have any problems, I found nearly all of my answers there. The code changes quite often so it's worth keeping an eye on - also other branches are available offering music functionality.
 
 rabbit.py
 
