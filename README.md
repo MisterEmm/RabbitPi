@@ -31,7 +31,7 @@ Adafruit - (controlling ear motors) https://github.com/adafruit/Adafruit-Motor-H
 It's currently set to run on startup using the /etc/rc.local method (adding in "python /home/pi/RabbitPi/rabbit.py &" just above the last exit 0 line), which has worked fine so far.
 
 Developer Accounts
-++++++++++++++++++
+
 
 The links above provide great resources and the necessary modules are easily installed, Pyvona especially. To get the code to connect to the web services you'll need to set up some developer accounts as well (this is covered in their individual guides, lots of hoops to jump through but fairly straightforward)
 
