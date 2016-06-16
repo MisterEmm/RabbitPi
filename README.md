@@ -1,6 +1,6 @@
 # RabbitPi
 
-The examples included are taken from the RabbitPi project, documented at http://www.instructables.com/id/RabbitPi-the-Alexa-Enabled-IFTTT-Connected-Ear-Wig/ , video at https://www.youtube.com/watch?v=t7cM2mfyBRk
+The examples included are taken from the RabbitPi project, documented at http://www.instructables.com/id/RabbitPi-the-Alexa-Enabled-IFTTT-Connected-Ear-Wig/ , with video at https://www.youtube.com/watch?v=t7cM2mfyBRk
 
 It's a Raspberry Pi digital assistant, building on the IoT heritage of the Nabaztag, Nabaztag:Tag and Karotz smart rabbits that have now been obsolete for several years. 
 
