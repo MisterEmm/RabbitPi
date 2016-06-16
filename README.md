@@ -8,19 +8,21 @@ The code shown is in a "working" state but neads some serious tidying up. I'm co
 The files included are as follows: 
 
 main.py
-+++++++
+
 
 This is my version of the main.py script used in Sam Machin's AlexaPi repository (which you'll need), which is available at https://github.com/sammachin/AlexaPi. 
 
 My version changes very little, just loads a different mp3 on boot and includes extra lines for controlling the Adafruit Motor Hat to make the RabbitPi ears move while Alexa is searching and after booting. If you're interested in the Alexa voice search function it's well worth reading the instructions on the AlexaPi pages and reading through the open issues if you have any problems, I found nearly all of my answers there. The code changes quite often so it's worth keeping an eye on - also other branches are available offering music functionality.
 
 rabbit.py
-+++++++++
+
 
 This is the main script that reads out the notifications, takes pictures and uploads them to Twitter. It includes elements from the below 
 
 Tweeting Babbage - https://www.raspberrypi.org/learning/tweeting-babbage/
+
 Pyvona - http://www.zacharybears.com/pyvona 
+
 Imaplib - https://docs.python.org/2/library/imaplib.html
 
 It's currently set to run on startup using the /etc/rc.local method, which has worked fine so far.
